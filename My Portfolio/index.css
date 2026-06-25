@@ -1,0 +1,85 @@
+body{
+    background:#1f2937;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+    );
+}
+
+.navbar-brand{
+    color:#0dcaf0 !important;
+}
+
+.profile-img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #0dcaf0;
+}
+
+.social-links a{
+    color:white;
+    font-size:30px;
+    margin:0 10px;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    color:#0dcaf0;
+}
+
+section{
+    padding:80px 0;
+    text-align:center;
+}
+
+.skill-card,
+.project-card{
+    transition:.4s;
+}
+
+.skill-card:hover,
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:20px;
+}
+
+.btn-info{
+    color:white;
+    font-weight:bold;
+}
+
+#contact form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
